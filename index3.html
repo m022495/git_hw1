@@ -3,24 +3,41 @@
 <head>
 	<meta charset = "utf-8">
 	<title> 과제1-3 </title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/index3.css">
 </head>
 
 <body>
-	<p>이 페이지의 만족도를 조사합니다</p>
-	<p>
-		<input type="checkbox">매우만족
-		<input type="checkbox">만족
-		<input type="checkbox">보통
-		<input type="checkbox">부족함
-		<input type="checkbox">매우부족
-	</p>
-	<p>이 페이지를 평가해주세요</p>
-	<p><input type="text"></p>
-	<p>
-			<input type="button" value="확인">
-		<a href="index.html">
-			첫 페이지로 돌아갑니다
-		</a>
-	</p>
+	<div id="wrap">
+		<div id="header">
+			<div id="header_top">
+				<div id="header_left">
+					 <img src="images/60132295.jpg" alt >
+				</div>
+			</div>
+			<div id="navbar">
+				<ul>
+					<li><a href="index.html">홈</a></li>
+					<li><a href="index2.html">상세정보</a></li>
+					<li><a href="index3.html" class="selected">평가 페이지</a></li>
+				</ul>
+			</div>
+			<div id="line"></div>
+		</div>
+		<div id="content">
+			<p>이 페이지의 만족도를 조사합니다</p>
+			<p>
+				<input type="checkbox">매우만족
+				<input type="checkbox">만족
+				<input type="checkbox">보통
+				<input type="checkbox">부족함
+				<input type="checkbox">매우부족
+			</p>
+			<p>이 페이지를 평가해주세요</p>
+			<p><input type="text"></p>
+			<p>
+					<input type="button" value="확인">
+			</p>
+		</div>
+	</div>
 </body>
 </html>
